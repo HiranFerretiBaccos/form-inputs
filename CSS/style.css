@@ -1,0 +1,82 @@
+body {
+  background-image: linear-gradient(to right, white, salmon);
+  font-family: sriracha;
+}
+
+input:focus {
+  /*Pseudo-Classe*/
+  color: darkred;
+}
+
+div::first-line {
+  /*Pseudo-Elemento*/
+  color: red;
+}
+
+.submitReset {
+  background-color: black;
+  color: gold;
+  border-style: double;
+  border-radius: 100%;
+  border-width: 8px;
+  border-color: red;
+  font-size: 18px;
+  padding: 5px;
+}
+
+#fontLabel1,
+#fontLabel2 {
+  font-size: 26px;
+}
+
+#fontLabel2 {
+  text-shadow: red 6px 6px 5px;
+}
+
+label {
+  font-size: 20px;
+}
+
+#fontDiv1 {
+  font-size: 14px;
+}
+
+#fontDiv2 {
+  font-size: 14px;
+}
+
+#fontDiv3 {
+  font-size: 14px;
+}
+
+#check1,
+#check2,
+#check3,
+#check4,
+#check5,
+#check6,
+#check7,
+#check8,
+#check9,
+#check10,
+#check11,
+#check12 {
+  font-size: 18px;
+}
+
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+}
+
+/* 
+input[type="radio"] {
+    width: 25px;
+    height: 25px;
+} */
+
+.hActionFolder {
+  color: black;
+  text-align: center;
+  font-size: 45px;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Project</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <form action="./actionFolder.html" method="GET">
+        <fieldset>
+            <legend>
+                <h1>There are a total of 50 states in the United States of America</h1>
+            </legend>
+            <label for="form" id="fontLabel1">
+                Select one of them below and choose your favorite to live in:
+            </label><br>
+
+            <select id="form" name="select" size="15" autofocus>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AR">Arkansas</option>
+                <option value="AZ">Arizona</option>
+                <option value="CA" selected>California</option>
+                <option value="NC">North Carolina</option>
+                <option value="SC">South Carolina</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="ND">North Dakota</option>
+                <option value="SD">South Dakota </option>
+                <option value="DE">Delaware</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NY">New York</option>
+                <option value="NM">New México</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OH">Ohio</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island </option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WV">West Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+            </select>
+
+            <br><br>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Write Your Name Here." name="name"><br><br>
+
+            <label for="date">What is your birth date?</label><br>
+            <input type="date" id="date" name="date"><br><br>
+
+            <label id="fontLabel2">For you, what is most important in terms of quality of life?</label><br>
+
+            <input type="checkbox" id="op1" name="op1" value="op1">
+            <label for="op1" id="check1">Quality Public Health.</label><br>
+
+            <input type="checkbox" id="op2" name="op2" value="op2">
+            <label for="op2" id="check2">Quality Public Education.</label><br>
+
+            <input type="checkbox" id="op3" name="op3" value="op3">
+            <label for="op3" id="check3">Cost of Living (Purchasing Power).</label><br>
+
+            <input type="checkbox" id="op4" name="op4" value="op4">
+            <label for="op4" id="check4">Low Levels of Unemployed.</label><br>
+
+            <input type="checkbox" id="op5" name="op5" value="op5">
+            <label for="op5" id="check5">Quality Public Services such as clean and efficient Buses and
+                Subways.</label><br>
+
+            <input type="checkbox" id="op6" name="op6" value="op6">
+            <label for="op6" id="check6">Balance Between Work and Leisure.</label><br>
+
+            <input type="checkbox" id="op7" name="op7" value="op7">
+            <label for="op7" id="check7">Sports and Outdoor Physical Activities.</label><br>
+
+            <input type="checkbox" id="op8" name="op8" value="op8">
+            <label for="op8" id="check8">Climate.</label><br>
+
+            <input type="checkbox" id="op9" name="op9" value="op9">
+            <label for="op9" id="check9">Safety.</label><br>
+
+            <input type="checkbox" id="op10" name="op10" value="op10">
+            <label for="op10" id="check10">High Salaries and employability.</label><br>
+
+            <input type="checkbox" id="op11" name="op11" value="op11">
+            <label for="op11" id="check11">Low Car Traffic.</label><br>
+
+            <input type="checkbox" id="op12" name="op12" value="op12">
+            <label for="op12" id="check12">healthy Eating.</label><br><br>
+
+            <label for="range" id="range">How much percent do you want to move to the US from
+                0 to 5.
+                <div id="fontDiv1">(optional)</div>
+            </label>
+            <input type="range" id="range" name="range" min="1" max="5"><br>
+
+            <label for="textarea">Tell me more about you and your future plans!</label><br>
+            <textarea id="textarea" placeholder="White Here" rows="10" cols="55" name="textarea"></textarea><br>
+
+            <label for="email">Enter your email below to complete your
+                registration:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="password">Write your password below:
+                <div id="fontDiv2">(Observation: You password cannot have special characters)</div>
+            </label>
+            <input type="password" id="password" name="password"><br>
+
+            <label for="number">Contact Number:
+                <div id="fontDiv3"> Only Numbers (Ex: 980001234)</div>
+            </label>
+            <input type="number" id="number" name="number"><br>
+
+            <label for="file" multipl>Insert your Resume Here:</label><br>
+            <input type="file" id="file" name="file"><br><br>
+
+            <label>What is your gender?<label><br>
+
+                    <input type="radio" id="male" name="gender" value="M" checked>Male<br>
+                    <label for="male"></label>
+
+                    <input type="radio" id="female" name="gender" value="F">Feminine<br>
+                    <label for="female"></label>
+
+                    <input type="radio" id="other" name="gender" value="Other">Other<br><br>
+                    <label for="other"></label>
+
+                    <label for="submit"></label>
+                    <input type="submit" id="submit" value="Enter" class="submitReset" name="submit">
+
+                    <label for="reset"></label>
+                    <input type="reset" id="reset" value="Clean" class="submitReset" name="reset">
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
